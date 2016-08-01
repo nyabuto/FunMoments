@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1060F541D4B3A7700ECC420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1060F531D4B3A7700ECC420 /* main.m */; };
+		A1060F571D4B3A7700ECC420 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1060F561D4B3A7700ECC420 /* AppDelegate.m */; };
+		A1060F5A1D4B3A7700ECC420 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1060F591D4B3A7700ECC420 /* ViewController.m */; };
+		A1060F5D1D4B3A7700ECC420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1060F5B1D4B3A7700ECC420 /* Main.storyboard */; };
+		A1060F601D4B3A7700ECC420 /* FunMoments.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1060F5E1D4B3A7700ECC420 /* FunMoments.xcdatamodeld */; };
+		A1060F621D4B3A7700ECC420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1060F611D4B3A7700ECC420 /* Assets.xcassets */; };
+		A1060F651D4B3A7700ECC420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1060F631D4B3A7700ECC420 /* LaunchScreen.storyboard */; };
+		A1060F701D4B3A7800ECC420 /* FunMomentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1060F6F1D4B3A7800ECC420 /* FunMomentsTests.m */; };
+		A1060F7B1D4B3A7800ECC420 /* FunMomentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1060F7A1D4B3A7800ECC420 /* FunMomentsUITests.m */; };
+		A1060F8A1D4B3F9200ECC420 /* MotorRacingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1060F891D4B3F9200ECC420 /* MotorRacingViewController.m */; };
+		A1060F8D1D4B404A00ECC420 /* SwimmingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1060F8C1D4B404A00ECC420 /* SwimmingViewController.m */; };
+		A1060F901D4B406600ECC420 /* PaintBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1060F8F1D4B406600ECC420 /* PaintBallViewController.m */; };
+		A1060F931D4B409800ECC420 /* WaterRaftingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1060F921D4B409800ECC420 /* WaterRaftingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1060F6C1D4B3A7800ECC420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1060F471D4B3A7700ECC420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1060F4E1D4B3A7700ECC420;
+			remoteInfo = FunMoments;
+		};
+		A1060F771D4B3A7800ECC420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1060F471D4B3A7700ECC420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1060F4E1D4B3A7700ECC420;
+			remoteInfo = FunMoments;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1060F4F1D4B3A7700ECC420 /* FunMoments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunMoments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1060F531D4B3A7700ECC420 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1060F551D4B3A7700ECC420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1060F561D4B3A7700ECC420 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1060F581D4B3A7700ECC420 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1060F591D4B3A7700ECC420 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1060F5C1D4B3A7700ECC420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1060F5F1D4B3A7700ECC420 /* FunMoments.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FunMoments.xcdatamodel; sourceTree = "<group>"; };
+		A1060F611D4B3A7700ECC420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1060F641D4B3A7700ECC420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1060F661D4B3A7700ECC420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1060F6B1D4B3A7800ECC420 /* FunMomentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunMomentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1060F6F1D4B3A7800ECC420 /* FunMomentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunMomentsTests.m; sourceTree = "<group>"; };
+		A1060F711D4B3A7800ECC420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1060F761D4B3A7800ECC420 /* FunMomentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunMomentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1060F7A1D4B3A7800ECC420 /* FunMomentsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunMomentsUITests.m; sourceTree = "<group>"; };
+		A1060F7C1D4B3A7800ECC420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1060F881D4B3F9200ECC420 /* MotorRacingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MotorRacingViewController.h; path = ../MotorRacingViewController.h; sourceTree = "<group>"; };
+		A1060F891D4B3F9200ECC420 /* MotorRacingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MotorRacingViewController.m; path = ../MotorRacingViewController.m; sourceTree = "<group>"; };
+		A1060F8B1D4B404A00ECC420 /* SwimmingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwimmingViewController.h; path = ../SwimmingViewController.h; sourceTree = "<group>"; };
+		A1060F8C1D4B404A00ECC420 /* SwimmingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwimmingViewController.m; path = ../SwimmingViewController.m; sourceTree = "<group>"; };
+		A1060F8E1D4B406600ECC420 /* PaintBallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintBallViewController.h; path = ../PaintBallViewController.h; sourceTree = "<group>"; };
+		A1060F8F1D4B406600ECC420 /* PaintBallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintBallViewController.m; path = ../PaintBallViewController.m; sourceTree = "<group>"; };
+		A1060F911D4B409800ECC420 /* WaterRaftingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaterRaftingViewController.h; path = ../WaterRaftingViewController.h; sourceTree = "<group>"; };
+		A1060F921D4B409800ECC420 /* WaterRaftingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaterRaftingViewController.m; path = ../WaterRaftingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1060F4C1D4B3A7700ECC420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1060F681D4B3A7800ECC420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1060F731D4B3A7800ECC420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1060F461D4B3A7700ECC420 = {
+			isa = PBXGroup;
+			children = (
+				A1060F511D4B3A7700ECC420 /* FunMoments */,
+				A1060F6E1D4B3A7800ECC420 /* FunMomentsTests */,
+				A1060F791D4B3A7800ECC420 /* FunMomentsUITests */,
+				A1060F501D4B3A7700ECC420 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1060F501D4B3A7700ECC420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1060F4F1D4B3A7700ECC420 /* FunMoments.app */,
+				A1060F6B1D4B3A7800ECC420 /* FunMomentsTests.xctest */,
+				A1060F761D4B3A7800ECC420 /* FunMomentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1060F511D4B3A7700ECC420 /* FunMoments */ = {
+			isa = PBXGroup;
+			children = (
+				A1060F8B1D4B404A00ECC420 /* SwimmingViewController.h */,
+				A1060F8C1D4B404A00ECC420 /* SwimmingViewController.m */,
+				A1060F8E1D4B406600ECC420 /* PaintBallViewController.h */,
+				A1060F8F1D4B406600ECC420 /* PaintBallViewController.m */,
+				A1060F911D4B409800ECC420 /* WaterRaftingViewController.h */,
+				A1060F921D4B409800ECC420 /* WaterRaftingViewController.m */,
+				A1060F881D4B3F9200ECC420 /* MotorRacingViewController.h */,
+				A1060F891D4B3F9200ECC420 /* MotorRacingViewController.m */,
+				A1060F551D4B3A7700ECC420 /* AppDelegate.h */,
+				A1060F561D4B3A7700ECC420 /* AppDelegate.m */,
+				A1060F581D4B3A7700ECC420 /* ViewController.h */,
+				A1060F591D4B3A7700ECC420 /* ViewController.m */,
+				A1060F5B1D4B3A7700ECC420 /* Main.storyboard */,
+				A1060F611D4B3A7700ECC420 /* Assets.xcassets */,
+				A1060F631D4B3A7700ECC420 /* LaunchScreen.storyboard */,
+				A1060F661D4B3A7700ECC420 /* Info.plist */,
+				A1060F5E1D4B3A7700ECC420 /* FunMoments.xcdatamodeld */,
+				A1060F521D4B3A7700ECC420 /* Supporting Files */,
+			);
+			path = FunMoments;
+			sourceTree = "<group>";
+		};
+		A1060F521D4B3A7700ECC420 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1060F531D4B3A7700ECC420 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1060F6E1D4B3A7800ECC420 /* FunMomentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1060F6F1D4B3A7800ECC420 /* FunMomentsTests.m */,
+				A1060F711D4B3A7800ECC420 /* Info.plist */,
+			);
+			path = FunMomentsTests;
+			sourceTree = "<group>";
+		};
+		A1060F791D4B3A7800ECC420 /* FunMomentsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1060F7A1D4B3A7800ECC420 /* FunMomentsUITests.m */,
+				A1060F7C1D4B3A7800ECC420 /* Info.plist */,
+			);
+			path = FunMomentsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1060F4E1D4B3A7700ECC420 /* FunMoments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1060F7F1D4B3A7800ECC420 /* Build configuration list for PBXNativeTarget "FunMoments" */;
+			buildPhases = (
+				A1060F4B1D4B3A7700ECC420 /* Sources */,
+				A1060F4C1D4B3A7700ECC420 /* Frameworks */,
+				A1060F4D1D4B3A7700ECC420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunMoments;
+			productName = FunMoments;
+			productReference = A1060F4F1D4B3A7700ECC420 /* FunMoments.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1060F6A1D4B3A7800ECC420 /* FunMomentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1060F821D4B3A7800ECC420 /* Build configuration list for PBXNativeTarget "FunMomentsTests" */;
+			buildPhases = (
+				A1060F671D4B3A7800ECC420 /* Sources */,
+				A1060F681D4B3A7800ECC420 /* Frameworks */,
+				A1060F691D4B3A7800ECC420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1060F6D1D4B3A7800ECC420 /* PBXTargetDependency */,
+			);
+			name = FunMomentsTests;
+			productName = FunMomentsTests;
+			productReference = A1060F6B1D4B3A7800ECC420 /* FunMomentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1060F751D4B3A7800ECC420 /* FunMomentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1060F851D4B3A7800ECC420 /* Build configuration list for PBXNativeTarget "FunMomentsUITests" */;
+			buildPhases = (
+				A1060F721D4B3A7800ECC420 /* Sources */,
+				A1060F731D4B3A7800ECC420 /* Frameworks */,
+				A1060F741D4B3A7800ECC420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1060F781D4B3A7800ECC420 /* PBXTargetDependency */,
+			);
+			name = FunMomentsUITests;
+			productName = FunMomentsUITests;
+			productReference = A1060F761D4B3A7800ECC420 /* FunMomentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1060F471D4B3A7700ECC420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Strathmore;
+				TargetAttributes = {
+					A1060F4E1D4B3A7700ECC420 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A1060F6A1D4B3A7800ECC420 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A1060F4E1D4B3A7700ECC420;
+					};
+					A1060F751D4B3A7800ECC420 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A1060F4E1D4B3A7700ECC420;
+					};
+				};
+			};
+			buildConfigurationList = A1060F4A1D4B3A7700ECC420 /* Build configuration list for PBXProject "FunMoments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1060F461D4B3A7700ECC420;
+			productRefGroup = A1060F501D4B3A7700ECC420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1060F4E1D4B3A7700ECC420 /* FunMoments */,
+				A1060F6A1D4B3A7800ECC420 /* FunMomentsTests */,
+				A1060F751D4B3A7800ECC420 /* FunMomentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1060F4D1D4B3A7700ECC420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1060F651D4B3A7700ECC420 /* LaunchScreen.storyboard in Resources */,
+				A1060F621D4B3A7700ECC420 /* Assets.xcassets in Resources */,
+				A1060F5D1D4B3A7700ECC420 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1060F691D4B3A7800ECC420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1060F741D4B3A7800ECC420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1060F4B1D4B3A7700ECC420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1060F8A1D4B3F9200ECC420 /* MotorRacingViewController.m in Sources */,
+				A1060F5A1D4B3A7700ECC420 /* ViewController.m in Sources */,
+				A1060F571D4B3A7700ECC420 /* AppDelegate.m in Sources */,
+				A1060F901D4B406600ECC420 /* PaintBallViewController.m in Sources */,
+				A1060F931D4B409800ECC420 /* WaterRaftingViewController.m in Sources */,
+				A1060F541D4B3A7700ECC420 /* main.m in Sources */,
+				A1060F601D4B3A7700ECC420 /* FunMoments.xcdatamodeld in Sources */,
+				A1060F8D1D4B404A00ECC420 /* SwimmingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1060F671D4B3A7800ECC420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1060F701D4B3A7800ECC420 /* FunMomentsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1060F721D4B3A7800ECC420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1060F7B1D4B3A7800ECC420 /* FunMomentsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1060F6D1D4B3A7800ECC420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1060F4E1D4B3A7700ECC420 /* FunMoments */;
+			targetProxy = A1060F6C1D4B3A7800ECC420 /* PBXContainerItemProxy */;
+		};
+		A1060F781D4B3A7800ECC420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1060F4E1D4B3A7700ECC420 /* FunMoments */;
+			targetProxy = A1060F771D4B3A7800ECC420 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1060F5B1D4B3A7700ECC420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1060F5C1D4B3A7700ECC420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1060F631D4B3A7700ECC420 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1060F641D4B3A7700ECC420 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1060F7D1D4B3A7800ECC420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1060F7E1D4B3A7800ECC420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1060F801D4B3A7800ECC420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunMoments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91472.FunMoments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1060F811D4B3A7800ECC420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunMoments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91472.FunMoments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1060F831D4B3A7800ECC420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunMomentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91472.FunMomentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunMoments.app/FunMoments";
+			};
+			name = Debug;
+		};
+		A1060F841D4B3A7800ECC420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunMomentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91472.FunMomentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunMoments.app/FunMoments";
+			};
+			name = Release;
+		};
+		A1060F861D4B3A7800ECC420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FunMomentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91472.FunMomentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FunMoments;
+			};
+			name = Debug;
+		};
+		A1060F871D4B3A7800ECC420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FunMomentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.strathmore.91472.FunMomentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FunMoments;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1060F4A1D4B3A7700ECC420 /* Build configuration list for PBXProject "FunMoments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1060F7D1D4B3A7800ECC420 /* Debug */,
+				A1060F7E1D4B3A7800ECC420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1060F7F1D4B3A7800ECC420 /* Build configuration list for PBXNativeTarget "FunMoments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1060F801D4B3A7800ECC420 /* Debug */,
+				A1060F811D4B3A7800ECC420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1060F821D4B3A7800ECC420 /* Build configuration list for PBXNativeTarget "FunMomentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1060F831D4B3A7800ECC420 /* Debug */,
+				A1060F841D4B3A7800ECC420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1060F851D4B3A7800ECC420 /* Build configuration list for PBXNativeTarget "FunMomentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1060F861D4B3A7800ECC420 /* Debug */,
+				A1060F871D4B3A7800ECC420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1060F5E1D4B3A7700ECC420 /* FunMoments.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1060F5F1D4B3A7700ECC420 /* FunMoments.xcdatamodel */,
+			);
+			currentVersion = A1060F5F1D4B3A7700ECC420 /* FunMoments.xcdatamodel */;
+			path = FunMoments.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1060F471D4B3A7700ECC420 /* Project object */;
+}
